@@ -1,0 +1,41 @@
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 50px;
+  background: #ffffff;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 17px;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff6600;
+}
+
+/* Highlight Active Link */
+.nav-link.active {
+  color: #ff6600;
+  font-weight: 700;
+}
