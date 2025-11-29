@@ -1,0 +1,37 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="responsiveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#responsiveGradient)"/>
+  
+  <!-- Desktop -->
+  <rect x="50" y="80" width="300" height="200" rx="5" fill="#ffffff" opacity="0.9"/>
+  <rect x="60" y="90" width="280" height="30" fill="#333"/>
+  <rect x="70" y="130" width="260" height="130" fill="#f0f0f0"/>
+  <rect x="80" y="140" width="120" height="50" rx="5" fill="#f5576c" opacity="0.3"/>
+  <rect x="210" y="140" width="120" height="50" rx="5" fill="#f093fb" opacity="0.3"/>
+  <rect x="80" y="200" width="250" height="50" rx="5" fill="#ffffff"/>
+  
+  <!-- Tablet -->
+  <rect x="400" y="120" width="200" height="150" rx="15" fill="#ffffff" opacity="0.9" stroke="#333" stroke-width="3"/>
+  <rect x="410" y="130" width="180" height="25" fill="#333"/>
+  <rect x="420" y="165" width="80" height="40" rx="5" fill="#f5576c" opacity="0.3"/>
+  <rect x="510" y="165" width="80" height="40" rx="5" fill="#f093fb" opacity="0.3"/>
+  <rect x="420" y="220" width="160" height="30" rx="5" fill="#ffffff"/>
+  
+  <!-- Mobile -->
+  <rect x="650" y="150" width="100" height="180" rx="20" fill="#ffffff" opacity="0.9" stroke="#333" stroke-width="3"/>
+  <rect x="660" y="160" width="80" height="20" fill="#333"/>
+  <rect x="670" y="190" width="60" height="40" rx="5" fill="#f5576c" opacity="0.3"/>
+  <rect x="670" y="240" width="60" height="30" rx="5" fill="#f093fb" opacity="0.3"/>
+  <rect x="670" y="280" width="60" height="30" rx="5" fill="#ffffff"/>
+  
+  <!-- Text -->
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">Responsive Design</text>
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" opacity="0.9" text-anchor="middle">Desktop • Tablet • Mobile</text>
+</svg>
