@@ -76,15 +76,37 @@ body {
 .btn-download {
     background-color: var(--primary-color);
     color: white;
-    padding: 10px 25px;
-    border-radius: 5px;
+    padding: 12px 24px;
+    border-radius: 8px;
     text-decoration: none;
     font-size: 14px;
-    transition: opacity 0.3s ease;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(255, 107, 0, 0.3);
+    border: none;
+    cursor: pointer;
 }
 
 .btn-download:hover {
-    opacity: 0.9;
+    background-color: #e55a00;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 0, 0.4);
+}
+
+.btn-download:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(255, 107, 0, 0.3);
+}
+
+.btn-download svg {
+    transition: transform 0.3s ease;
+}
+
+.btn-download:hover svg {
+    transform: translateY(2px);
 }
 
 .hero-section {

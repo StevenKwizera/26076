@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering Figma for UI Design - Blog | Kwizera</title>
+    <link rel="stylesheet" href="blog.css">
+    <style>
+        .blog-post-page {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .post-header-image {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+        .post-header-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .post-header {
+            margin-bottom: 30px;
+        }
+        .post-header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--text-color);
+        }
+        .post-meta-large {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .post-content-full {
+            font-size: 18px;
+            line-height: 1.8;
+            color: var(--text-color);
+        }
+        .post-content-full p {
+            margin-bottom: 20px;
+        }
+        .post-content-full h2 {
+            font-size: 28px;
+            font-weight: 600;
+            margin: 40px 0 20px;
+            color: var(--text-color);
+        }
+        .post-content-full h3 {
+            font-size: 22px;
+            font-weight: 600;
+            margin: 30px 0 15px;
+            color: var(--text-color);
+        }
+        .post-content-full ul, .post-content-full ol {
+            margin: 20px 0;
+            padding-left: 30px;
+        }
+        .post-content-full li {
+            margin-bottom: 10px;
+        }
+        .back-to-blog {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-to-blog:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="theme-toggle" id="themeToggle">🌙</button>
+                <a href="cv.html" class="btn-download" target="_blank">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px;">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Download CV
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="blog-section">
+        <div class="blog-post-page">
+            <a href="blog.html" class="back-to-blog">← Back to Blog</a>
+            
+            <div class="post-header-image">
+                <img src="blog-image-figma.svg" alt="Mastering Figma">
+            </div>
+
+            <div class="post-header">
+                <div class="post-meta-large">
+                    <span class="post-date">November 15, 2024</span>
+                    <span class="post-category">Design Tools</span>
+                </div>
+                <h1>Mastering Figma for UI Design</h1>
+            </div>
+
+            <div class="post-content-full">
+                <p>
+                    Figma has revolutionized the way UI/UX designers work. As a collaborative design tool, it has become 
+                    the industry standard for creating beautiful, functional interfaces. In this comprehensive guide, 
+                    I'll share advanced techniques, shortcuts, and workflows that will boost your design productivity.
+                </p>
+
+                <h2>Getting Started with Figma</h2>
+                <p>
+                    Figma is a browser-based design tool that allows real-time collaboration. Unlike traditional design 
+                    software, Figma runs in your browser, making it accessible from any device. This cloud-based approach 
+                    means your designs are always up-to-date and accessible to your team.
+                </p>
+
+                <h3>Key Features</h3>
+                <ul>
+                    <li><strong>Real-time Collaboration:</strong> Work simultaneously with team members on the same design file</li>
+                    <li><strong>Component System:</strong> Create reusable design components for consistency</li>
+                    <li><strong>Auto Layout:</strong> Build responsive designs that adapt to content changes</li>
+                    <li><strong>Prototyping:</strong> Create interactive prototypes without leaving Figma</li>
+                    <li><strong>Design Systems:</strong> Build and maintain comprehensive design systems</li>
+                </ul>
+
+                <h2>Advanced Techniques</h2>
+                <p>
+                    Once you've mastered the basics, these advanced techniques will take your Figma skills to the next level:
+                </p>
+
+                <h3>1. Component Variants</h3>
+                <p>
+                    Component variants allow you to create multiple states of a component within a single component set. 
+                    This is perfect for buttons with different states (default, hover, active, disabled) or cards with 
+                    various layouts. Use variants to maintain consistency while providing flexibility.
+                </p>
+
+                <h3>2. Auto Layout Mastery</h3>
+                <p>
+                    Auto Layout is one of Figma's most powerful features. It allows you to create frames that automatically 
+                    resize based on their content. Master Auto Layout to build responsive designs that adapt seamlessly 
+                    to different screen sizes and content lengths.
+                </p>
+
+                <h3>3. Smart Animate</h3>
+                <p>
+                    When prototyping, Smart Animate automatically animates objects that share the same name between frames. 
+                    This creates smooth, professional transitions that make your prototypes feel like real applications.
+                </p>
+
+                <h2>Essential Shortcuts</h2>
+                <p>Speed up your workflow with these essential keyboard shortcuts:</p>
+                <ul>
+                    <li><strong>R:</strong> Rectangle tool</li>
+                    <li><strong>O:</strong> Ellipse tool</li>
+                    <li><strong>T:</strong> Text tool</li>
+                    <li><strong>F:</strong> Frame tool</li>
+                    <li><strong>Shift + A:</strong> Auto Layout</li>
+                    <li><strong>Ctrl/Cmd + D:</strong> Duplicate</li>
+                    <li><strong>Ctrl/Cmd + G:</strong> Group</li>
+                    <li><strong>Ctrl/Cmd + /:</strong> Quick actions</li>
+                </ul>
+
+                <h2>Best Practices</h2>
+                <p>
+                    To maximize your productivity in Figma, follow these best practices:
+                </p>
+                <ol>
+                    <li><strong>Organize Your Files:</strong> Use clear naming conventions and organize frames logically</li>
+                    <li><strong>Use Components:</strong> Create reusable components for common UI elements</li>
+                    <li><strong>Leverage Styles:</strong> Use text and color styles for consistent design</li>
+                    <li><strong>Version Control:</strong> Use Figma's version history to track changes</li>
+                    <li><strong>Collaborate Effectively:</strong> Use comments and share links appropriately</li>
+                </ol>
+
+                <h2>Conclusion</h2>
+                <p>
+                    Mastering Figma takes time and practice, but with these techniques and shortcuts, you'll be creating 
+                    professional designs more efficiently. Remember, the key to becoming proficient in Figma is consistent 
+                    practice and staying updated with new features. Happy designing!
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="blog.js"></script>
+    <script src="cv-download.js"></script>
+</body>
+</html>

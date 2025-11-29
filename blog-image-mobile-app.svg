@@ -1,0 +1,46 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mobileGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#mobileGradient)"/>
+  
+  <!-- Phone Frame -->
+  <rect x="250" y="50" width="300" height="400" rx="40" fill="#ffffff" stroke="#333" stroke-width="4"/>
+  <rect x="270" y="70" width="260" height="360" fill="#f8f8f8"/>
+  
+  <!-- Status Bar -->
+  <rect x="270" y="70" width="260" height="30" fill="#333"/>
+  <circle cx="285" cy="85" r="4" fill="#ffffff"/>
+  <text x="300" y="90" font-family="Arial, sans-serif" font-size="10" fill="#fff">9:41</text>
+  
+  <!-- App Content -->
+  <rect x="280" y="110" width="240" height="50" rx="10" fill="#4facfe" opacity="0.2"/>
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Dashboard</text>
+  
+  <!-- Cards -->
+  <rect x="290" y="180" width="220" height="60" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  <circle cx="310" cy="210" r="15" fill="#4facfe"/>
+  <text x="335" y="205" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Card Item 1</text>
+  <text x="335" y="220" font-family="Arial, sans-serif" font-size="10" fill="#666">Description</text>
+  
+  <rect x="290" y="250" width="220" height="60" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  <circle cx="310" cy="280" r="15" fill="#00f2fe"/>
+  <text x="335" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Card Item 2</text>
+  <text x="335" y="290" font-family="Arial, sans-serif" font-size="10" fill="#666">Description</text>
+  
+  <rect x="290" y="320" width="220" height="60" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  <circle cx="310" cy="350" r="15" fill="#764ba2"/>
+  <text x="335" y="345" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Card Item 3</text>
+  <text x="335" y="360" font-family="Arial, sans-serif" font-size="10" fill="#666">Description</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="270" y="390" width="260" height="30" fill="#333" rx="5"/>
+  <circle cx="320" cy="405" r="8" fill="#4facfe"/>
+  <circle cx="400" cy="405" r="6" fill="#666"/>
+  <circle cx="480" cy="405" r="6" fill="#666"/>
+</svg>
