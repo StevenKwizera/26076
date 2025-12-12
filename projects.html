@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Kwizera</title>
     <link rel="stylesheet" href="projects.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="nav-container">
@@ -21,7 +23,8 @@
             <div class="nav-buttons">
                 <button class="theme-toggle" id="themeToggle">🌙</button>
                 <a href="cv.html" class="btn-download" target="_blank">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        style="margin-right: 8px;">
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                         <polyline points="7 10 12 15 17 10"></polyline>
                         <line x1="12" y1="15" x2="12" y2="3"></line>
@@ -36,7 +39,7 @@
         <div class="projects-container">
             <h1 class="projects-title">My Projects</h1>
             <p class="projects-subtitle">I have worked on many many project</p>
-            
+
             <div class="filter-buttons">
                 <button class="filter-btn" data-filter="all">All</button>
                 <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
@@ -46,6 +49,43 @@
             </div>
 
             <div class="projects-grid">
+                <div class="project-card" data-category="web-design">
+                    <div class="project-image">
+                        <img src="finance-tracker.png" alt="Finance Expense Tracker">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Design</span>
+                        <h3 class="project-name">Finance Expense Tracker</h3>
+                        <p class="project-description">
+                            Track expenses, visualize spending patterns, and take control of your finances with our
+                            intuitive personal finance tracker.
+                            Features include real-time expense tracking, smart analytics & insights, and data export
+                            capabilities.
+                        </p>
+                        <div class="project-tech">
+                            Stack: <span>HTML, CSS, JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web-design">
+                    <div class="project-image">
+                        <img src="gymfit-auth.png" alt="GymFit Management System">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Design</span>
+                        <h3 class="project-name">GymFit Management System</h3>
+                        <p class="project-description">
+                            A robust full-stack fitness management platform tailored for modern gyms. This system
+                            features a secure authentication module, comprehensive member dashboards for tracking
+                            workouts and nutrition, and administrative tools for subscription and class management. The
+                            interface allows users to monitor their progress with detailed analytics, all wrapped in a
+                            premium "hardcore" dark aesthetic designed to motivate and engage users.
+                        </p>
+                        <div class="project-tech">
+                            Stack: <span>Spring Boot, React, MySQL</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="project-card" data-category="web-design">
                     <div class="project-image">
                         <img src="netops.png" alt="Network Operation">
@@ -122,4 +162,5 @@
     <script src="projects.js"></script>
     <script src="cv-download.js"></script>
 </body>
+
 </html>
